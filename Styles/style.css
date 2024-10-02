@@ -9,6 +9,7 @@
 }
 body{
     background-color: #0D1117;  
+    overflow-x: hidden;
 }
 section{
     width: 100vw;
@@ -32,10 +33,16 @@ header{
     padding: 5px 7px 5px 7px;
     justify-content: space-between;
 
-    img{
+    h1 a{
         width: 100px;
         height: 33px;
-        padding-left: 20px; 
+        color: #B384F9;
+        font-size: 40px;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.705);
+        padding: 0px 0px 0px 15px;
+        margin: 0px 0px 10px 10px;
+        letter-spacing: 8px;
+        text-decoration: none;
     }
     
     nav{
@@ -50,14 +57,17 @@ header{
             color: rgb(255, 255, 255);
             text-decoration: none;
             padding: 7px;
+            font-size: larger;
         }
         a:hover{
             cursor: pointer;
             background-color: #c5c5c59a;
-            padding: 7px;
+            padding: 9px;
             border-radius: 15px;
             color: rgb(255, 255, 255);
-            transition: 1s;
+            transition: .5s;
+            box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.574);
+            transform: translateY(-2px);
         }
     }
     
@@ -213,11 +223,19 @@ article#pr2{
         margin-top: 30px;
         background-color: rgb(80, 27, 27);
     }
-
-    p{
+    iframe{
+        border-radius: 15px;
+    }
+    p a{
         color: #EC6547;
-        margin: 30px 0px 0px 40px;
+        margin: 30px 0px 0px -180px;
         font-size: 20px;
+        text-decoration: none;
+    }
+    a:hover{
+        color: rgba(255, 255, 255, 0.504);
+        text-decoration: underline;
+        transition: .8s;
     }
 }
 article#pr3{
@@ -282,12 +300,19 @@ article#pr6{
         margin-top: 5%;
         background-color: rgb(45, 11, 11);
     }
-
-    p{
+    iframe{
+        border-radius: 15px;
+    }
+    p a{
         color: #EC6547;
-        margin-top: 30px;
-        margin-left: 35px;
+        margin: 30px 0px 0px -180px;
         font-size: 20px;
+        text-decoration: none;
+    }
+    a:hover{
+        color: rgba(255, 255, 255, 0.504);
+        text-decoration: underline;
+        transition: .8s;
     }
 }
 article#pr7{
