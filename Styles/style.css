@@ -103,8 +103,7 @@ section{
     p {
         width: 900px;
         color: white;
-        margin-top: 38px;
-        margin-left: 150px;
+        margin: 38px 0px 0px 150px;
         font-size: 32px;
 
         .fontc{
@@ -133,8 +132,6 @@ section{
         }
 
         p{
-            margin-top: 15px;
-            margin-left: 5px;
             margin: 15px 60px 0px 80px;
             padding-bottom: 45px;
             font-size: 24px;
@@ -166,18 +163,14 @@ section{
 #projects{
     width: 84vw;
     height: 3050px;
-    background-image: url(../assets/projects.png);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+    background: url(../assets/projects.png) no-repeat center center / cover;
     margin: auto;
     display: flex;
     flex-direction: column;
 
     h2{
         color: #EC6547;
-        margin-top: 5px;
-        margin-left: 150px;
+        margin: 5px 0px 0px 150px;
         font-size: 48px;
     }
     article{
@@ -189,14 +182,10 @@ section{
     .pr1{
         width: 1110;
         height: 500px;
-        margin: auto;
-        margin-bottom: 0px;
-        margin-top: 40px;
-        margin-left: 175px;
+        margin: 40px 0px 0px 175px;
         border-radius: 15px;
         color: white;
-        padding: 50px;
-        padding-top: 30px;
+        padding: 30px 50px 50px 50px;
 
         h3{
             color: #EC6547;
@@ -210,154 +199,163 @@ section{
         }
     }
 }
-#pr1 ul li{
-    font-size: 24px;
-    margin: 30px 0px 15px 50px;
-}
 article#pr2{
     width: 660px;
     height: 480px;
     padding-bottom: 20px;
-    margin-left: 65px;
-    margin-top: -50px;
-}
-#pr2 div{
-    width: 580px;
-    height: 327px;
-    border-radius: 10px;
-    margin: auto;
-    margin-top: 5%;
-    background-color: rgb(80, 27, 27);
-}
-#pr2 p{
-    color: #EC6547;
-    margin-top: 30px;
-    margin-left: 35px;
+    margin: -50px 0px 0px 65px;
+
+    div{
+        width: 580px;
+        height: 327px;
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 30px;
+        background-color: rgb(80, 27, 27);
+    }
+
+    p{
+        color: #EC6547;
+        margin: 30px 0px 0px 40px;
+        font-size: 20px;
+    }
 }
 article#pr3{
     width: 500;
     height: 640px;
-    margin-left: 790px;
-    margin-top: -270px;
-}
-#pr3 h3{
-    color: #EC6547;
-    padding: 40px 20px 20px 40px;
-}
-#pr3 ul{
-    width: 485px;
-    height: 485px;
-    padding: 20px 30px 30px 80px;
+    margin: -270px 0px 0px 790px;
+
+    h3{
+        color: #EC6547;
+        padding: 40px 20px 20px 40px;
+    } 
+
+    ul{
+        width: 485px;
+        height: 485px;
+        padding: 20px 30px 30px 80px;
+    }
 }
 article#pr4{
     width: 584px;
     height: 620px;
     margin: -220px 0px 0px 140px;
-}
-#pr4 h3{
-    color: #EC6547;
-    padding: 50px 20px 30px 50px;
-}
-#pr4 ul{
-    width: 530px;
-    height: 567px;
-    padding: 20px 30px 0px 80px;
+
+    h3{
+        color: #EC6547;
+        padding: 50px 20px 30px 50px;
+    }
+
+    ul{
+        width: 530px;
+        height: 567px;
+        padding: 20px 30px 0px 80px;
+    }
 }
 article#pr5{
     width: 1093px;
     height: 543px;
     margin: 50px 0px 0px 70px;
     padding-bottom: 40px;
-}
-#pr5 h3{
-    color: #EC6547;
-    padding: 50px 20px 30px 70px;
-}
-#pr5 ul{
-    width: 1050px;
-    padding: 20px 30px 30px 100px;
+
+    h3{
+        color: #EC6547;
+        padding: 50px 20px 30px 70px;
+    }
+
+    ul{
+        width: 1050px;
+        padding: 20px 30px 30px 100px;
+    }
 }
 article#pr6{
     width: 502px;
     height: 433px;
     margin: -760px 0px 0px 790px;
     padding-bottom: 30px;
-}
-#pr6 div{
-    width: 90%;
-    height: 280px;
-    border-radius: 10px;
-    margin: auto;
-    margin-top: 5%;
-    background-color: rgb(45, 11, 11);
-}
-#pr6 p{
-    color: #EC6547;
-    margin-top: 30px;
-    margin-left: 35px;
+
+    div{
+        width: 90%;
+        height: 280px;
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 5%;
+        background-color: rgb(45, 11, 11);
+    }
+
+    p{
+        color: #EC6547;
+        margin-top: 30px;
+        margin-left: 35px;
+        font-size: 20px;
+    }
 }
 article#pr7{
     width: 1200px;
     height: 960px;
     padding-bottom: 20px;
     margin: 420px 0px 80px 70px;
-}
-#pr7 h3{
-    color: #EC6547;
-    padding: 50px 20px 30px 70px;
-    font-size: 32px;
-}
-#pr7 h4{
-    color: #ffffff;
-    padding: 20px 30px 5px 85px;
-    margin-bottom: -15px;
-    font-size: 24px;
-}
-#pr7 ul{
-    width: 1176px;
-    padding: 20px 30px 30px 100px;
-    font-size: 24px;
+
+    h3{
+        color: #EC6547;
+        padding: 50px 20px 30px 70px;
+        font-size: 32px;
+    }
+
+    h4{
+        color: #ffffff;
+        padding: 20px 30px 5px 85px;
+        margin-bottom: -15px;
+        font-size: 2
+    }
+
+    ul{
+        width: 1176px;
+        padding: 20px 30px 30px 100px;
+        font-size: 24px;
+    }
 }
 #contact{
     width: 1400px;
     height: 515px;
-    background-image: url(../assets/Contact.png);
-    background-size: cover;
+    background: url(../assets/Contact.png) no-repeat center center / cover;
     padding-right: -50px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    margin-left: 100px;
-    margin-bottom: 25px;
+    margin: 0px 0px 25px 100px;
     display: flex;
     flex-direction: column;
-}
-#contact h2{
-    color: #939aff;
-    font-size: 48px;
-    margin: 167px 0px 0px 120px;
-}
-#contact p{
-    width: 955px;
-    color: #f9f9f9;
-    font-size: 32px;
-    margin: 40px 0px 0px 120px;
-}
-#colorp{
-    color: #939aff;
-    font-size: 32px;
-    text-decoration: none;
-    cursor: text;
+
+    h2{
+        color: #939aff;
+        font-size: 48px;
+        margin: 167px 0px 0px 120px;
+    }
+
+    p{
+        width: 955px;
+        color: #f9f9f9;
+        font-size: 32px;
+        margin: 40px 0px 0px 120px;
+    }
+
+    #colorp{
+        color: #939aff;
+        font-size: 32px;
+        text-decoration: none;
+        cursor: text;
+    }
 }
 footer{
     width: 100%;
     height: 546px;
     background-image: url(../assets/footer.png);
     display: flex;
-}
-footer a{
-    margin-left: 300px;
-    align-content: center;    
-}
-#icone{
-    margin-left: 550px;
+
+    a{
+        margin-left: 300px;
+        align-content: center;    
+    }
+
+    #icone{
+        margin-left: 550px;
+    }
 }
