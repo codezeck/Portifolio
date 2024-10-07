@@ -33,6 +33,15 @@ header{
     padding: 5px 7px 5px 7px;
     justify-content: space-between;
 
+    span#btnmenu{
+        display: none;
+    }
+
+    menu{
+        span{
+            display: none;
+        }
+    }
     h1 a{
         width: 100px;
         height: 33px;
@@ -52,6 +61,7 @@ header{
         align-items: center;
         padding-right: 20px;
         float: left;
+        margin-top: 5px;
 
         a{
             color: rgb(255, 255, 255);
