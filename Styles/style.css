@@ -110,6 +110,8 @@ section{
     margin: auto;
     display: flex;
     flex-direction: column;
+    margin-top: -15px;
+    
 
     h2 {
         margin: 5px 0px 0px 150px;
@@ -178,14 +180,15 @@ section{
 #projects{
     width: 84vw;
     height: 3050px;
-    background: url(../assets/projects.png) no-repeat center center / cover;
+    background: url(../assets/projects.png) no-repeat top center / cover;
     margin: auto;
     display: flex;
     flex-direction: column;
+    margin-top: -76px;
 
     h2{
         color: #EC6547;
-        margin: -304px 0px 0px 150px;
+        margin: -173px 0px 0px 150px;
         font-size: 48px;
     }
     article{
